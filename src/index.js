@@ -74,8 +74,7 @@ export default class App extends Component {
 						}
 					</nav>
 					<h1 class="font-sans text-4xl md:text-5xl lg:text-6xl pt-10 text-gray-800 text-center capitalize">
-                  <img style="max-width: 678px; max-height: 460px; display: block; margin-left: auto; margin-right: auto;" src="./assets/images/san-giorgio-a-domicilio.png" alt="San Giorgio a Cremano a domicilio" />
-					
+                  <img style="max-width: 678px; max-height: 460px; display: block; margin-left: auto; margin-right: auto;" src="/assets/images/san-giorgio-a-domicilio.png" alt="San Giorgio a Cremano a domicilio" />
 					</h1>
 					<Router onChange={this.handleRoute}>
 						<Home path="/" results={results} />
